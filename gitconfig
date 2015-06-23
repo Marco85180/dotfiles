@@ -1,5 +1,5 @@
 [user]
-  name =  "MARCO"
+	name = Marco
   email = "lefollmarc@hotmail.fr"
 
 [color]
@@ -14,11 +14,11 @@
   remote = yellow
 
 [core]
-  editor = vim
+	editor = atom --wait
   pager = cat
 
 [alias]
-  co = checkout
+	co = checkout
   st = status
   br = branch
   ci = commit
@@ -41,3 +41,7 @@
 
 [push]
 	default = simple
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
