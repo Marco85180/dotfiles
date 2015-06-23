@@ -40,3 +40,5 @@ stick all the variables you need:
 export AMAZON_ACCESS_KEY=________________________
 export AMAZON_SECRET_KEY=_______________________
 ```
+
+First Set up Lewagon 04/2014, more gitignore, rspec and UTF8 encoding
